@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDASSIST</title>
+    <link rel="stylesheet" href="new6.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MEDASSIST</h1>
+        <div class="appointment-booking">
+            <h2>Book an Appointment</h2>
+            <form>
+                <label for="patient-id">Patient ID:</label>
+                <input type="text" id="patient-id" name="patient-id" required>
+                <br><br>
+                <label for="doctor-hospital">Doctor/Hospital:</label>
+                <select id="doctor-hospital" name="doctor-hospital" required>
+                    <option value="">Select</option>
+                    <option value="Dr. Smith">Dr. Smith</option>
+                    <option value="Dr. Johnson">Dr. Johnson</option>
+                    <option value="Hospital A">Hospital A</option>
+                    <option value="Hospital B">Hospital B</option>
+                </select>
+                <br><br>
+                <label for="appointment-date">Appointment Date:</label>
+                <input type="date" id="appointment-date" name="appointment-date" required>
+                <br><br>
+                <label for="appointment-time">Appointment Time:</label>
+                <input type="time" id="appointment-time" name="appointment-time" required>
+                <br><br>
+                <label for="reason">Reason for Appointment:</label>
+                <textarea id="reason" name="reason" required></textarea>
+                <br><br>
+                <button id="book-now">Book Now</button>
+            </form>
+        </div>
+        <div class="confirmation-alert" id="confirmation-alert">
+            <h2>Appointment Confirmation</h2>
+            <p id="confirmation-message"></p>
+        </div>
+    </div>
+    <script src="new6.js"></script>
+</body>
+</html>

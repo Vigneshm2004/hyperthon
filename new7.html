@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDASSIST</title>
+    <link rel="stylesheet" href="new7.css">
+</head>
+<body>
+    <header>
+        <h1>MEDASSIST</h1>
+        <h2>Best Doctors Available nearby me</h2>
+        <p>Find the best doctors available in your area using Google Maps or AI technology</p>
+    </header>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Enter your location or area">
+            <button id="find-button">Find</button>
+        </div>
+        <div id="map"></div>
+        <div id="doctor-list"></div>
+        <div id="nearby-doctors">
+            <h3>Nearby Best Doctors:</h3>
+            <ul>
+                <li>Dr. John Smith - Cardiologist</li>
+                <li>Dr. Jane Doe - Oncologist</li>
+                <li>Dr. Bob Johnson - Neurologist</li>
+                <li>Dr. Maria Rodriguez - Pediatrician</li>
+                <li>Dr. David Lee - Orthopedic Surgeon</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap"></script>
+    <script src="new7.js"></script>
+</body>
+</html>

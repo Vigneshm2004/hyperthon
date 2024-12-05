@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDASSIST - Dashboard</title>
+    <link rel="stylesheet" href="super1.css">
+</head>
+<body style="background-image: url('superhealth.jpg'); background-size: cover; background-repeat: no-repeat;"></body>
+    <header>
+        <div class="left">
+            <h2>Mr Banu Prakash Yadav</h2>
+        </div>
+        <div class="middle">
+            <h1>MEDASSIST</h1>
+        </div>
+        <div class="right">
+            <h2>Profile</h2>
+            <p id="current-date-time"></p>
+        </div>
+    </header>
+
+    <script>
+        const currentTime = document.getElementById('current-date-time');
+        function updateDateTime() {
+            const now = new Date();
+            const dateTime = now.toLocaleString();
+            currentTime.textContent = dateTime;
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    </script>
+
+    <div class="container">
+        <div class="box">
+            <h2>Schemes Released by the Government</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button onclick="window.location.href='schemes.html'">Learn More</button>
+        </div>
+
+        <div class="box">
+            <h2>Work in Progress of the Schemes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button onclick="window.location.href='work-in-progress.html'">Learn More</button>
+        </div>
+
+        <div class="box">
+            <h2>Data of Patients</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button onclick="window.location.href='patient-data.html'">Learn More</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c3fafa; /* light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* rounded corners */
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #337ab7; /* blue color */
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #666; /* dark gray color */
+}
+
+.gov-insurance, .access-insurance, .benefits, .related-info, .insurance-options {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f7f7f7; /* light gray background */
+    border: 1px solid #ddd;
+    border-radius: 10px; /* rounded corners */
+}
+
+.gov-insurance:hover, .access-insurance:hover, .benefits:hover, .related-info:hover, .insurance-options:hover {
+    background-color: #fff; /* white background on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #337ab7; /* blue color */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7; /* blue color */
+}
+
+a:hover {
+    color: #23527c; /* darker blue color on hover */
+}
+
+.expanded {
+    background-color: #f2f2f2; /* light gray background on expanded section */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* rounded corners */
+}

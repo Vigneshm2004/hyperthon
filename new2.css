@@ -1,0 +1,63 @@
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+}
+
+#patient-form {
+	width: 500px;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="time"] {
+	width: 100%;
+	padding: 10px;
+	padding-inline-end: 0px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="file"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+body {
+	margin: 0;
+	height: 200vh; /* Full height of the viewport */
+	background-image: linear-gradient(to right, #ace37f, #89e0f4); /* Gradient colors */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white; /* Text color */
+	font-family: Arial, sans-serif; /* Font style */
+}
+
+.content {
+	text-align: center;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for content */
+	border-radius: 8px; /* Rounded corners */
+}

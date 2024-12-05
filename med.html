@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDASSIST - Your Healthcare Companion</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="med.css">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-blue-100 min-h-screen flex flex-col items-center justify-center">
+    <header class="text-center mb-10">
+        <h1 class="text-4xl font-bold text-blue-600">Welcome to MEDASSIST</h1>
+        <p class="mt-2 text-lg text-gray-700">Your Healthcare Companion for Monitoring Patient Details</p>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Patient Login Section -->
+            <div class="glass-effect p-6 rounded-xl shadow-lg transition-transform transform hover:scale-105">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600 text-center">Patient Login</h2>
+                <form id="patientLoginForm" action="user.html" method="POST" class="space-y-4">
+                    <input type="text" name="patientId" placeholder="Patient ID" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <input type="password" name="password" placeholder="Password" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300"><a href="user.html">Login</a></button>
+                </form>
+            </div>
+
+            <!-- Hospital Login Section -->
+            <div class="glass-effect p-6 rounded-xl shadow-lg transition-transform transform hover:scale-105">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600 text-center">Hospital Login</h2>
+                <form id="hospitalLoginForm" action="new.html" method="POST" class="space-y-4">
+                    <input type="text" name="hospitalId" placeholder="Hospital ID" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <input type="password" name="password" placeholder="Password" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300"><a href="new.html">Login</a></button>
+                </form>
+            </div>
+
+            <!-- Super Admin Login Section -->
+            <div class="glass-effect p-6 rounded-xl shadow-lg transition-transform transform hover:scale-105">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600 text-center">Super Admin Login</h2>
+                <form id="superAdminLoginForm" action="super.html" method="POST" class="space-y-4">
+                    <input type="text" name="adminId" placeholder="Super Admin ID" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <input type="password" name="password" placeholder="Password" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300"><a href="super.html">Login</a></button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Company Information Section -->
+        <section class="mt-10 text-center">
+            <h3 class="text-xl font-semibold text-blue-600">About MEDASSIST</h3>
+            <p class="mt-2 text-gray-700">MEDASSIST aims to help both patients and doctors monitor patient details such as reports, prescriptions, and hospital bills all in one application.</p>
+            <p class="mt-2 text-gray-700">Location: 123 Health St, Wellness City, HC 12345</p>
+            <p class="mt-2 text-gray-700">Official Website: <a href="https://www.medassist.com" class="text-blue-500 hover:underline">www.medassist.com</a></p>
+            <p class="mt-2 text-gray-700">Contact Us: info@medassist.com | Phone: (123) 456-7890</p>
+        </section>
+    </main>
+
+    <footer class="mt-10 text-center">
+        <p class="text-gray-600">&copy; 2023 MEDASSIST. All rights reserved.</p>
+    </footer>
+
+    <script src="med.js"></script>
+</body>
+</html>

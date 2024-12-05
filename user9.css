@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color for contrast */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #add8e6; /* Light blue header */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0 20px;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+/* Diet Plan Styles */
+.diet-plan {
+    background-color: #e0f7fa; /* Light cyan for diet plan boxes */
+    border: 1px solid #b2ebf2; /* Light cyan border */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 600px; /* Limit width for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles for Diet Plans */
+h3 {
+    color: #00796b; /* Dark teal for diet plan titles */
+    margin: 0;
+}
+
+/* Paragraph Styles */
+p {
+    margin: 10px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Smaller font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Smaller font size for smaller screens */
+    }
+
+    .diet-plan {
+        padding: 10px; /* Less padding for smaller screens */
+    }
+
+    h3 {
+        font-size: 1.2em; /* Smaller heading for diet plans */
+    }
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f9fa;
+}
+
+.diet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.diet-item {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.diet-item img {
+    width: 100%;
+    height: auto;
+}
+
+.diet-item h3 {
+    margin: 10px 0;
+}

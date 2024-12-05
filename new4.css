@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c3fafa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.schemes {
+    padding: 20px;
+}
+
+.schemes h2 {
+    margin-top: 0;
+}
+
+.schemes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.schemes li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.schemes li:last-child {
+    border-bottom: none;
+}
+
+.latest-news {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+.latest-news h2 {
+    margin-top: 0;
+}
+
+.latest-news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-news li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.latest-news li:last-child {
+    border-bottom: none;
+}
+
+/* Add some media queries to make the page responsive */
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 300px;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .schemes h2, .latest-news h2 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Time Alerts</title>
+    <link rel="stylesheet" href="new5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Medicine Time Alerts</h1>
+        <div class="remainder-container">
+            <h2>Set Reminders</h2>
+            <div class="remainder">
+                <label for="remainder-1">Remainder 1:</label>
+                <input type="time" id="remainder-1" name="remainder-1">
+                <input type="text" id="remainder-message-1" name="remainder-message-1" placeholder="Enter remainder message">
+                <button id="set-remainder-1">Set</button>
+            </div>
+            <div class="remainder">
+                <label for="remainder-2">Remainder 2:</label>
+                <input type="time" id="remainder-2" name="remainder-2">
+                <input type="text" id="remainder-message-2" name="remainder-message-2" placeholder="Enter remainder message">
+                <button id="set-remainder-2">Set</button>
+            </div>
+            <div class="remainder">
+                <label for="remainder-3">Remainder 3:</label>
+                <input type="time" id="remainder-3" name="remainder-3">
+                <input type="text" id="remainder-message-3" name="remainder-message-3" placeholder="Enter remainder message">
+                <button id="set-remainder-3">Set</button>
+            </div>
+            <button id="add-remainder">Add More</button>
+        </div>
+        <div class="alert-container">
+            <h2>Alerts</h2>
+            <div id="alerts"></div>
+        </div>
+    </div>
+    <script src="new5.js"></script>
+</body>
+</html>

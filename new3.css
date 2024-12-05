@@ -1,0 +1,38 @@
+/* Add some basic styling to the page */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #c3fafa;
+}
+
+/* Style the container for the patient details */
+.patient-details {
+	width: 50%;
+	background-color: #3afbbb;
+	padding: 20px;
+	border: 1px solid #3afbbb;
+	margin: 20px;
+	float: left;
+}
+
+/* Style the container for the reports, doctors, activity, and caretaker details */
+.reports-container {
+	width: 40%;
+	margin: 20px;
+	float: right;
+}
+
+/* Style each report box */
+.report-box {
+	background-color: #3afbbb;
+	padding: 20px;
+	border: 1px solid #3afbbb;
+	margin-bottom: 20px;
+}
+
+/* Center the title */
+.title {
+	text-align: center;
+	margin-bottom: 20px;
+}

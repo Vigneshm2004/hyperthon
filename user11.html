@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDASSIST</title>
+    <link rel="stylesheet" href="user11.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <h2>Mr. Kiran</h2>
+        </div>
+        <div class="middle">
+            <h1>MEDASSIST</h1>
+        </div>
+        <div class="right">
+            <h2>Profile</h2>
+            <p id="current-date-time"></p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h2>Patient Details</h2>
+            <p>View and manage patient details</p>
+            <button onclick="location.href='new3.html'">View</button>
+        </div>
+        <div class="box">
+            <h2>Health and Family Welfare Schemes</h2>
+            <p>Explore government schemes for health and family welfare</p>
+            <button onclick="location.href='new4.html'">Explore</button>
+        </div>
+        <div class="box">
+            <h2>Medicine Time Alerts</h2>
+            <p>Set reminders for medicine intake</p>
+            <button onclick="location.href='new5.html'">Set Reminder</button>
+        </div>
+        <div class="box">
+            <h2>Instant Emergency Video Consultations</h2>
+            <p>Get instant video consultations in emergency situations</p>
+            <button onclick="location.href='new9.html'">Consult Now</button>
+        </div>
+        <div class="box">
+            <h2>Appointment Booking</h2>
+            <p>Book appointments with doctors and hospitals</p>
+            <button onclick="location.href='new6.html'">Book Now</button>
+        </div>
+        <div class="box">
+            <h2>Best Doctors Available nearby me</h2>
+            <p>Find the best doctors available in your area</p>
+            <button onclick="location.href='new7.html'">Find Doctors</button>
+        </div>
+        <div class="box">
+            <h2>Insurance facilities</h2>
+            <p>Explore insurance options for health and medical needs</p>
+            <button onclick="location.href='new8.html'">Explore</button>
+        </div>
+        <div class="box">
+            <h2>POLIO</h2>
+            <p>Learn about polio and its prevention</p>
+            <button onclick="location.href='new10.html'">Learn More</button>
+        </div>
+        <div class="box">
+            <h2>Diet plans</h2>
+            <p>Get personalized diet plans for a healthy lifestyle</p>
+            <button onclick="location.href='user9.html'">Get Plan</button>
+        </div>
+        <div class="box">
+            <h2>About us</h2>
+            <p>Learn about MEDASSIST and our mission</p>
+            <button onclick="location.href='about-us.html'">Learn More</button>
+        </div>
+    </div>
+
+<div class="chat-icon" id="chat-icon">
+    <span><button onclick="location.href='chat.html'">💬</button></span>
+</div>
+
+
+
+<script src="chatbot.js"></script>
+
+    <script>
+        const currentTime = document.getElementById('current-date-time');
+        function updateDateTime() {
+            const now = new Date();
+            const dateTime = now.toLocaleString();
+            currentTime.textContent = dateTime;
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    </script>
+
+
+
+<a href="index .html" class="voice-assistant-icon" id="voiceAssistant">
+    <span>🎤</span> <!-- Use a microphone emoji as the icon -->
+</a>
+
+<script src="chatbot.js"></script> <!-- Link to JavaScript -->
+</body>
+
+
+
+
+
+</body>
+</html>
